@@ -1,0 +1,24 @@
+.cartWidgetContainer{
+    position: relative;
+    margin: auto;
+    user-select: none;
+}
+
+.cartWidgetIcon{
+    width: 25px;
+    height: 25px;
+    color: white;
+
+}
+
+.cartWidgetCounter{
+    position: absolute;
+    bottom: 60%;
+    left: 60%;
+    border: 2px solid white;
+    padding: 0px 8px;
+    border-radius: 50% ;
+    background-color: red;
+    font-size: 14px;
+ 
+}

@@ -1,0 +1,124 @@
+.containerRegister {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;  /* Fondo blanco con opacidad */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .containerInputRegister{
+      width: 350px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin-left: 50px;
+      margin-top: 50px;
+  }
+  .containerBackgroundRegister{
+      width: 27%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+  }
+  
+  .backgroundImageRegister{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      user-select: none;
+  }
+  .registerBanner{
+    font-weight:400;
+    color :rgb(255, 102, 0);
+    font-size: 35px!important;
+  }
+  .registerForm{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
+  
+  .registerLabel{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      margin: 15px 0px;
+      font-weight: 700;
+  }
+  
+  .registerInput{
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid #808080;
+      padding: 0px 5px;
+  
+  }
+  .registerInput:focus{
+    border: 1px solid rgb(255, 102, 0) ; 
+    outline: none;
+}
+  
+  .registerButton{
+      width: 40%;
+      height: 40px;
+      font-weight: 700;
+      border-radius: 5px;
+      font-size: 18px;
+      color: #f4f4f4;
+      background-color: rgb(255, 102, 0) ;
+      border: none;
+      transition: box-shadow 0.3s ease;
+
+  }
+  .registerButton:hover {
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.7);  }
+  
+  .containerLogoRegister {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transition: all 0.1s;
+      user-select: none;
+      margin-bottom: 30px;
+
+    }
+    .containerLogoRegister:hover {
+      transform: scale(1.01);
+    }
+    .containerLogoRegister a {
+      text-decoration: none;
+    }
+    .containerLogoRegister h1 {
+      color: black;
+      font-family: "Play", sans-serif;
+      font-size: 35px;
+    }
+    .containerLogoRegister h1 span {
+  
+      font-family: "Play", sans-serif;
+      position: relative;
+      color: white;
+      text-align: center;
+      -webkit-text-stroke: 2px rgba(0, 0, 0, 0.782);
+    }
+  
+    .registerBanner{
+      font-size: 35px;
+    }
+  

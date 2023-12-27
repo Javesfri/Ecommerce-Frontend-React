@@ -1,0 +1,14 @@
+.ProductFilterContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.filterTitle{
+    font-size: 20px;
+}
+
+.filterLink{
+    text-decoration: none;
+    color: #666666;
+}

@@ -1,0 +1,79 @@
+.containerItemList{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #ffff;
+}
+
+.imageItem{
+    height:100%;
+    width: auto;
+    padding: 0px 24px;
+}
+.containerItem{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #ebeaea;
+    padding: 10px 20px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.containerItemInfo{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.itemTitle{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.itemPrice{
+    width: 100%;
+    height: auto;
+}
+
+.itemPrice span{
+    font-weight: 500;
+    font-size: 23px;
+    color: #333333;
+}
+
+.itemInStock{
+    padding: 0px 5px;
+    width: fit-content;
+    border: 2px solid green;
+    border-radius: 5px;
+    user-select: none;
+    
+}
+
+.itemInStock span{
+    color: green;
+    font-weight: 400;
+}
+
+.itemNoStock{
+    padding: 0px 5px;
+    width: fit-content;
+    border: 2px solid red;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.itemNoStock span{
+    color: red;
+    font-weight: 400;
+}
+
+.linkItems{
+    text-decoration: none; /* Quitar subrayado */
+  color: inherit; /* Heredar el color del texto padre */
+  cursor: pointer;
+}

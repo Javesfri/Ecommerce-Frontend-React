@@ -1,0 +1,28 @@
+.paginationContainer{
+    min-width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonCurrentPage{
+    padding: 1px 8px 1px 8px;
+    border-radius: 3px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.699) ;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    background-color: rgba(139, 137, 135, 0.151);
+
+
+}
+
+.buttonPrevNext {
+    text-decoration: none;
+    color: rgb(7, 73, 255);
+    font-weight: 500;
+    padding: 2px;
+    margin: 0px 5px 0px 5px;
+
+}

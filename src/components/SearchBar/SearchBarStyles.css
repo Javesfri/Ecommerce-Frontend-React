@@ -1,0 +1,40 @@
+.formContenedor{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+    
+    
+.formContenedor input{
+    border: none;
+    width: 250px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px 0px 0px 5px;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+   
+}
+.formContenedor input:focus{
+   outline: none;
+}
+.formContenedor button{
+    border:none;
+    width: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 0px 5px 5px 0px;
+    height: 90%;
+}
+.searchIcon{
+    height: auto;
+    font-size: 20px;
+}
+
+.accountIcon{
+    
+}
+
+.navBarr{
+    margin: auto;
+}

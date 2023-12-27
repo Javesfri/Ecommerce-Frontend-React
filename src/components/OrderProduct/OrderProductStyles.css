@@ -1,0 +1,34 @@
+.containerOrderProduct{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.imageOrderProduct{
+    height: 100%;
+    width: auto;
+}
+.titleQuantityOrderProduct{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:0px 10px;
+}
+.quantityPriceOrderProduct{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleOrderProduct{
+}
+.quantityOrderProduct{
+    color:rgb(128, 128, 128); 
+}

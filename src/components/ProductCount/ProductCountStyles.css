@@ -1,0 +1,67 @@
+.productCountAddCartContainer{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.productCountAddCartContainer span{
+    color: gray;
+    margin-bottom: 35px;
+}
+.productCountContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 5px;
+
+}
+
+.counterIcon{
+    font-size: 30px;
+    color: rgb(255, 102, 0); 
+    transition: transform 0.2s;
+
+}
+.counterIcon:hover{
+    cursor:pointer ;
+}
+.counterIcon:active{
+    transform: scale(1.2);
+}
+
+.quantityVisualizer{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.quantityVisualizer span{
+    margin: 0px 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.addCartButton{
+    width: 60%;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgba(255, 102, 0, 0.185); 
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 102, 0); ;
+    padding: 10px 10px;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.addCartButton:active{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(0.98);
+    font-size: 19px;
+}

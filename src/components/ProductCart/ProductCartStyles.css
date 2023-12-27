@@ -1,0 +1,90 @@
+.productCartContainer{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3px;
+    background-color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.productCartTitleImageContainer{
+    width:40%; 
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.productCartImage{
+    height: 100%;
+    width: auto;
+}
+
+.productCartTitleCode{
+ padding-left: 5px;
+}
+.productCartTitle{
+ font-size: 25px;
+}
+
+.productCartCode{
+
+}
+.productCartPriceContainer{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.productPrice{
+    font-size: 25px;
+    color:  rgb(66, 65, 65);
+    margin: 0px;
+
+}
+.productQuantity{
+    font-size: 25px;
+    margin: 0px;
+
+}
+
+.productCartTotalPriceContainer{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.productTotalPrice{
+    width: 80%;
+    font-size: 25px;
+    text-align: end;
+    margin: 0px;
+    
+}
+
+.buttonDeleteProduct{
+    width: 20%;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(94, 93, 91);
+    
+}
+.buttonDeleteProduct:hover{
+    cursor: pointer;
+    color: brown;
+    
+}

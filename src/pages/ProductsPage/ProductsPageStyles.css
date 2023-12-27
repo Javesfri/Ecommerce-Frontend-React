@@ -1,0 +1,51 @@
+.containerPage{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top:30px ;
+    
+}
+.containerProductParams{
+    width: 100%;
+    
+    margin: auto;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerParams{
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerProducts{
+   
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    
+}
+
+.containerPagination{
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.params{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
